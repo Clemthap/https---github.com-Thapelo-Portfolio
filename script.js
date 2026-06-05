@@ -117,11 +117,10 @@ $(document).ready(function () {
         alert(
             "Thank you " + name + " " + surname + "!\n\n" +
             "Your message has been received.\n" +
-            "We'll contact you via " + (contactMethod || "email") + ".\n\n" +
+            "I will contact you contact you via " + (contactMethod || "email") + "\nIf not your phone number provided.\n\n" +
             "Phone: " + phone + "\n" +
             "Message: " + message
         );
-        
         this.reset();
     });
 });
