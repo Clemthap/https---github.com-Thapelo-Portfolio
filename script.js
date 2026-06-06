@@ -128,7 +128,7 @@ $(document).ready(function () {
 //HEADER animation
 
 const strings = [
-    "Aspiring Web Developer",
+    "Full Stack Intern",
     "Computer Science Student", 
     "Aspiring Software Developer"
 ];
